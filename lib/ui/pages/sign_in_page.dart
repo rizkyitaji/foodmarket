@@ -32,6 +32,7 @@ class _SignInPageState extends State<SignInPage> {
               type: TextInputType.emailAddress,
               hintText: 'Type your email address',
               validator: invalidEmail,
+              email: true,
             ),
             Container(
               width: double.infinity,
@@ -44,7 +45,7 @@ class _SignInPageState extends State<SignInPage> {
               action: TextInputAction.done,
               hintText: 'Type your password',
               validator: invalidPass,
-              field: 'pass',
+              password: true,
             ),
             Container(
               width: double.infinity,
@@ -57,7 +58,8 @@ class _SignInPageState extends State<SignInPage> {
                   if (emailController.text.isEmpty ||
                       !emailController.text.contains('@')) {
                     setState(() => invalidEmail = true);
-                  } else if (passwordController.text.isEmpty) {
+                  } else if (passwordController.text.isEmpty ||
+                      passwordController.text.length < 8) {
                     setState(() => invalidPass = true);
                   } else {
                     setState(() => isLoading = true);

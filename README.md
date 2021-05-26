@@ -1,16 +1,36 @@
-# foodmarket
+# Food Market
+> Food Market app built with Flutter and REST API.
 
-A new Flutter project.
+## Table of Contents
+* [General Info](#general-information)
+* [Technologies Used](#technologies-used)
+* [Features](#features)
+* [Screenshots](#screenshots)
+* [Project Status](#project-status)
+<!-- * [Contact](#contact) -->
 
-## Getting Started
+## General Information
+- Easy order food with Food Market app
 
-This project is a starting point for a Flutter application.
+## Technologies Used
+- Flutter
+- GetX
+- Cubit
+- REST API
 
-A few resources to get you started if this is your first Flutter project:
+## Features
+- CRUD
+- Upload file
+- Payment
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Screenshots
+<!-- <p align="center"> -->
+  <!-- <img width="300" src="https://user-images.githubusercontent.com/83572055/119536411-42a77b00-bdb3-11eb-8298-563ff61dd0f9.png"> -->
+  <!-- <img width="300" src="https://user-images.githubusercontent.com/83572055/119536557-6965b180-bdb3-11eb-8315-67f0f6054c92.png"> -->
+<!-- </p> -->
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Project Status
+Project is : _In Progress_.
+
+<!-- ## Contact
+Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me! -->

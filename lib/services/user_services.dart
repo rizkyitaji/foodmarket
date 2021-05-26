@@ -105,7 +105,7 @@ class UserServices {
     client ??= http.Client();
 
     String url = baseURL + 'user';
-    var response = await client.post(
+    var response = await client.put(
       url,
       headers: {
         "Content-Type": "application/json",

@@ -102,7 +102,7 @@ class _EditProfilePageState extends State<EditProfilePage> {
               validator: invalidName,
             ),
             CustomTextField(
-              margin: EdgeInsets.only(top: 16),
+              marginTop: 16,
               controller: emailController,
               action: TextInputAction.next,
               type: TextInputType.emailAddress,
@@ -110,7 +110,7 @@ class _EditProfilePageState extends State<EditProfilePage> {
               validator: invalidEmail,
             ),
             CustomTextField(
-              margin: EdgeInsets.only(top: 16),
+              marginTop: 16,
               controller: phoneController,
               action: TextInputAction.done,
               type: TextInputType.number,
@@ -141,18 +141,18 @@ class _EditProfilePageState extends State<EditProfilePage> {
                             name: nameController.text,
                             email: emailController.text,
                             phoneNumber: phoneController.text,
-                            // address: (context.read<UserCubit>().state
-                            //         as UserLoaded)
-                            //     .user
-                            //     .address,
-                            // houseNumber: (context.read<UserCubit>().state
-                            //         as UserLoaded)
-                            //     .user
-                            //     .houseNumber,
-                            // city: (context.read<UserCubit>().state
-                            //         as UserLoaded)
-                            //     .user
-                            //     .city,
+                            address:
+                                (context.read<UserCubit>().state as UserLoaded)
+                                    .user
+                                    .address,
+                            houseNumber:
+                                (context.read<UserCubit>().state as UserLoaded)
+                                    .user
+                                    .houseNumber,
+                            city:
+                                (context.read<UserCubit>().state as UserLoaded)
+                                    .user
+                                    .city,
                           );
 
                           await context

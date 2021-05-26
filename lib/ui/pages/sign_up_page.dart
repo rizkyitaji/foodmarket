@@ -111,6 +111,7 @@ class _SignUpPageState extends State<SignUpPage> {
               type: TextInputType.emailAddress,
               hintText: 'Type your email address',
               validator: invalidEmail,
+              email: true,
             ),
             Container(
               width: double.infinity,
@@ -123,7 +124,7 @@ class _SignUpPageState extends State<SignUpPage> {
               action: TextInputAction.done,
               hintText: 'Type your password',
               validator: invalidPass,
-              field: 'pass',
+              password: true,
             ),
             Container(
               width: double.infinity,
