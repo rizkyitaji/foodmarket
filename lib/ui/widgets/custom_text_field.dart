@@ -56,7 +56,7 @@ class _CustomTextFieldState extends State<CustomTextField> {
           ),
           padding: EdgeInsets.symmetric(horizontal: 10),
           decoration: BoxDecoration(
-            color: Colors.lightBlue[50],
+            border: Border.all(width: 1, color: Colors.black),
             borderRadius: BorderRadius.circular(8),
           ),
           child: TextField(
